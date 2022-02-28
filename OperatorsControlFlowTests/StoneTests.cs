@@ -6,27 +6,44 @@ public class StoneTests
 {
     static int input;
 
-    [SetUp]
-    public static void init()
-    {
-        input = 156;
-    }
 
     [Test]
     public void ShouldReturnCorrectStones()
     {
+        int input = 156;
         int expected = 11;
-        int actual = Methods.GetStones(input);
+        int result = Methods.GetStones(input);
 
-        Assert.That(actual, Is.EqualTo(expected));
+        Assert.That(result, Is.EqualTo(expected));
     }
 
     [Test]
     public void ShouldReturnCorrectPounds()
     {
+        int input = 156;
         int expected = 2;
-        int actual = Methods.GetPounds(input);
+        int result = Methods.GetPounds(input);
 
-        Assert.That(actual, Is.EqualTo(expected));
+        Assert.That(result, Is.EqualTo(expected));
+    }
+
+    [Test]
+    public void WhenGivenWeightIsBelowZero_StonesIsZero()
+    {
+        int negativeInput = -1;
+        int ZERO = 0;
+        int result = Methods.GetStones(negativeInput);
+
+        Assert.That(result, Is.EqualTo(ZERO));
+    }
+    
+    [Test]
+    public void WhenGivenWeightIsBelowZero_PoundsIsZero()
+    {
+        int negativeInput = -1;
+        int ZERO = 0;
+        int result = Methods.GetPounds(negativeInput);
+
+        Assert.That(result, Is.EqualTo(ZERO));
     }
 }
