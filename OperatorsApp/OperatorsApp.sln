@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorsApp", "OperatorsApp.csproj", "{2A009FAE-7632-4699-A0BD-FBD1D272AB97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorsControlFlowTests", "..\OperatorsControlFlowTests\OperatorsControlFlowTests.csproj", "{758FEF1A-8D5B-47EB-BBD7-5337089BBE8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A009FAE-7632-4699-A0BD-FBD1D272AB97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A009FAE-7632-4699-A0BD-FBD1D272AB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A009FAE-7632-4699-A0BD-FBD1D272AB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A009FAE-7632-4699-A0BD-FBD1D272AB97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{758FEF1A-8D5B-47EB-BBD7-5337089BBE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758FEF1A-8D5B-47EB-BBD7-5337089BBE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758FEF1A-8D5B-47EB-BBD7-5337089BBE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758FEF1A-8D5B-47EB-BBD7-5337089BBE8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66A6E9CA-6BDE-410D-916D-9766E5884F3B}
+	EndGlobalSection
+EndGlobal
