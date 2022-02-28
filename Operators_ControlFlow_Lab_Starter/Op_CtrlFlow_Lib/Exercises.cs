@@ -1,18 +1,24 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Op_CtrlFlow
 {
     public class Exercises
     {
-        public static bool MyMethod(int num1, int num2)
-        {
-            return num1 == num2 ? false : (num1 % num2) == 0;
-        }
+        private static readonly int MAX_HUMAN_AGE = 120;
+        private static readonly int MAX_POSSIBLE_MARKS = 100;
 
         // returns the average of the array nums
         public static double Average(List<int> nums)
         {
-            return -1;
+            if (nums.Count == 0) { return 0; }
+            int sum = 0;
+            foreach(var n in nums)
+            {
+                sum += n;
+            }
+
+            return sum / (double) nums.Count;
         }
 
         // returns the type of ticket a customer is eligible for based on their age
@@ -23,19 +29,46 @@ namespace Op_CtrlFlow
         // "Free" if they are under 5
         public static string TicketType(int age)
         {
-            string ticketType = string.Empty;
-            return ticketType;
+            if (age >= 0 && age < 5)
+            {
+                return "Free";
+            } else if (age >=5 && age <= 12)
+            {
+                return "Child";
+            } else if (age >= 13 && age <= 17)
+            {
+                return "Student";
+            } else if (age >= 18 && age <= 59)
+            {
+                return "Standard";
+            } else if (age >= 60 && age <= MAX_HUMAN_AGE)
+            {
+                return "OAP";
+            } else
+            {
+                return "Invalid age";
+            }
         }
 
-        public static string Grade(int mark)
+        public static Result Grade(int marks)
         {
-            var grade = "";
-            return grade;
+            if (marks >= 0 && marks <= 64)
+            {
+                return Result.Fail;
+            }
+            else if (marks >= 65 && marks <= 84)
+            {
+                return Result.Pass;
+            } 
+            else if (marks >= 85 && marks <= MAX_POSSIBLE_MARKS)
+            {
+                return Result.Distinction;
+            } 
+            else
+            {
+                throw new ArgumentException("Invalid input");
+            }
         }
 
-        public static int GetScottishMaxWeddingNumbers(int covidLevel)
-        {
-            return 0;
-        }
     }
 }

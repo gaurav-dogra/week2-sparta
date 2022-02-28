@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using Op_CtrlFlow;
+using System;
 using System.Collections.Generic;
 
 namespace Op_CtrlFlow_Tests
@@ -37,6 +38,23 @@ namespace Op_CtrlFlow_Tests
         {
             var result = Exercises.TicketType(age);
             Assert.That(result, Is.EqualTo(expected));
+        }
+
+        [TestCase(0, Result.Fail)]
+        [TestCase(80, Result.Pass)]
+        [TestCase(90, Result.Distinction)]
+        [TestCase(100, Result.Distinction)]
+        public void GradeTest(int marks, Result expected)
+        {
+            var actual = Exercises.Grade(marks);
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [TestCase(-1)]
+        [TestCase(110)]
+        public void GradeTest_ArgumentException(int marks)
+        {
+            Assert.Throws<ArgumentException>(() => Exercises.Grade(marks));
         }
     }
 }
