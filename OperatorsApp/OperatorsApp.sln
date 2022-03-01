@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Op_CtrlFlow", "..\Operators
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Op_CtrlFlow_Tests", "..\Operators_ControlFlow_Lab_Starter\Op_CtrlFlow_Tests\Op_CtrlFlow_Tests.csproj", "{761790ED-7681-442E-97D9-D4BEBA123834}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes_Lib", "..\Labs\DataTypes_Lab_Starter\DataTypes_Lib\DataTypes_Lib.csproj", "{9B3E04C5-B300-4475-A050-36C64B92A490}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes_Test", "..\Labs\DataTypes_Lab_Starter\DataTypes_Test\DataTypes_Test.csproj", "{B02D7569-AFE4-4984-A9EF-1629C20B0BEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{761790ED-7681-442E-97D9-D4BEBA123834}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{761790ED-7681-442E-97D9-D4BEBA123834}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{761790ED-7681-442E-97D9-D4BEBA123834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B3E04C5-B300-4475-A050-36C64B92A490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3E04C5-B300-4475-A050-36C64B92A490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3E04C5-B300-4475-A050-36C64B92A490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3E04C5-B300-4475-A050-36C64B92A490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02D7569-AFE4-4984-A9EF-1629C20B0BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02D7569-AFE4-4984-A9EF-1629C20B0BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02D7569-AFE4-4984-A9EF-1629C20B0BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02D7569-AFE4-4984-A9EF-1629C20B0BEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
