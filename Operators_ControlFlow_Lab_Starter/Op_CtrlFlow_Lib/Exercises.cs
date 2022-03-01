@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Op_CtrlFlow
-{
+namespace Op_CtrlFlow;
     public class Exercises
     {
         private static readonly int MAX_HUMAN_AGE = 120;
@@ -70,5 +69,4 @@ namespace Op_CtrlFlow
             }
         }
 
-    }
 }

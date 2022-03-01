@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29709.97
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Op_CtrlFlow", "Op_CtrlFlow_Lib\Op_CtrlFlow.csproj", "{0CAC3AEE-3D50-4F92-9323-28BF1DD9E272}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Op_CtrlFlow_Tests", "Op_CtrlFlow_Tests\Op_CtrlFlow_Tests.csproj", "{45299C77-F0A8-4858-A465-1895238C0765}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata4DuplicateLetters", "..\Kata4DuplicateLetters\Kata4DuplicateLetters.csproj", "{47773C24-2F2C-4CF7-93E5-FD583C28262A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeting", "..\Greeting\Greeting.csproj", "{23C45740-5002-4D78-BD1A-6EACBE50AF94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeting_Tests", "..\Greeting_Test\Greeting_Tests.csproj", "{7A321D66-74D5-4083-B430-557CE66A5F4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{45299C77-F0A8-4858-A465-1895238C0765}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45299C77-F0A8-4858-A465-1895238C0765}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45299C77-F0A8-4858-A465-1895238C0765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47773C24-2F2C-4CF7-93E5-FD583C28262A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47773C24-2F2C-4CF7-93E5-FD583C28262A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47773C24-2F2C-4CF7-93E5-FD583C28262A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47773C24-2F2C-4CF7-93E5-FD583C28262A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C45740-5002-4D78-BD1A-6EACBE50AF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C45740-5002-4D78-BD1A-6EACBE50AF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C45740-5002-4D78-BD1A-6EACBE50AF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C45740-5002-4D78-BD1A-6EACBE50AF94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A321D66-74D5-4083-B430-557CE66A5F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A321D66-74D5-4083-B430-557CE66A5F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A321D66-74D5-4083-B430-557CE66A5F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A321D66-74D5-4083-B430-557CE66A5F4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

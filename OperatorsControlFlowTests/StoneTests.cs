@@ -4,8 +4,6 @@ using OperatorsApp;
 namespace OperatorsControlFlowTests;
 public class StoneTests
 {
-    static int input;
-
 
     [Test]
     public void ShouldReturnCorrectStones()
