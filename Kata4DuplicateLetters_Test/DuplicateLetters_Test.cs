@@ -12,7 +12,6 @@ public class DuplicateLettersTest
     [TestCase("121213", "12")]
     public void Test1(string word, string expected)
     {
-        //anyone found a better way
         char[] result = Program.GetArrayDuplicateLetters(word.ToLower());
         Array.Sort(result);
         string resultString = new string(result);

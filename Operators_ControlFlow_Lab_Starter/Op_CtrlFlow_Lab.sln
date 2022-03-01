@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeting_Tests", "..\Greeti
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata4DuplicateLetters_Test", "..\Kata4DuplicateLetters_Test\Kata4DuplicateLetters_Test.csproj", "{1F435C41-79C3-4A59-ACF2-B2263FA8C030}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes_Lib", "..\Labs\DataTypes_Lab_Starter\DataTypes_Lib\DataTypes_Lib.csproj", "{7E34182A-E338-4A53-92FB-768ACBF23268}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes_Test", "..\Labs\DataTypes_Lab_Starter\DataTypes_Test\DataTypes_Test.csproj", "{FA27097D-CAC6-4D81-A47C-C902DF9E8BED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{1F435C41-79C3-4A59-ACF2-B2263FA8C030}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F435C41-79C3-4A59-ACF2-B2263FA8C030}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F435C41-79C3-4A59-ACF2-B2263FA8C030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E34182A-E338-4A53-92FB-768ACBF23268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E34182A-E338-4A53-92FB-768ACBF23268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E34182A-E338-4A53-92FB-768ACBF23268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E34182A-E338-4A53-92FB-768ACBF23268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA27097D-CAC6-4D81-A47C-C902DF9E8BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA27097D-CAC6-4D81-A47C-C902DF9E8BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA27097D-CAC6-4D81-A47C-C902DF9E8BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA27097D-CAC6-4D81-A47C-C902DF9E8BED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
