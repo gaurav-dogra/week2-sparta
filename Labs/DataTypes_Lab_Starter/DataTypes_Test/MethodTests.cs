@@ -6,6 +6,7 @@ namespace DataTypes_Test
     public class MethodTests
     {
         [TestCase(1, 1)]
+        [TestCase(4, 24)]
         public void Factorial_Returns_CorrectInteger(int n, long expResult)
         {
             var result = Methods.Factorial(n);

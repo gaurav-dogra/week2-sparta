@@ -1,15 +1,7 @@
 ﻿namespace OperatorsApp;
-using System;
-
 public class Methods
 {
-    public static void Main(string[] args) 
-    {
-        int a = int.MaxValue;
-        Console.WriteLine(a);
-        a = a + 1;
-        Console.WriteLine(a);
-    }
+    public static void Main(string[] args) {}
 
     public static int GetStones(int totalPounds)
     {
