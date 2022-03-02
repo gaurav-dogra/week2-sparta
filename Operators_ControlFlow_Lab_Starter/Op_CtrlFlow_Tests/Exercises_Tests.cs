@@ -56,5 +56,25 @@ namespace Op_CtrlFlow_Tests
         {
             Assert.Throws<ArgumentException>(() => Exercises.Grade(marks));
         }
+
+        [TestCase(4, 20)]
+        [TestCase(3, 50)]
+        [TestCase(2, 50)]
+        [TestCase(1, 100)]
+        [TestCase(0, 200)]
+        public void ShouldReturnCorrectAttendees(int alertLevel, int expected)
+        {
+            int actual = Exercises.MaxNoOfAttendeesAtScottishWedding(alertLevel);
+            Assert.That(actual, Is.EqualTo(expected));
+        }
+
+        [Test]
+        public void ShouldThrow_ArgumentOutOfRangeException()
+        {
+            int outOfRangeValue = -1;
+            Assert.That(() => Exercises.MaxNoOfAttendeesAtScottishWedding(outOfRangeValue),
+                Throws.TypeOf<ArgumentOutOfRangeException>()
+                .With.Message.Contain("Value can only be from 0-4 inclusive"));
+        }
     }
 }
