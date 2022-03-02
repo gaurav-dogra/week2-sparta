@@ -19,6 +19,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes_Lib", "..\Labs\Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypes_Test", "..\Labs\DataTypes_Lab_Starter\DataTypes_Test\DataTypes_Test.csproj", "{FA27097D-CAC6-4D81-A47C-C902DF9E8BED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata3WhoLikeIt", "..\Kata3WhoLikeIt\Kata3WhoLikeIt.csproj", "{6493992E-048D-4005-81A1-2D39E8104A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata3WhoLikeit_Test", "..\Kata3WhoLikeit_Test\Kata3WhoLikeit_Test.csproj", "{7370EE14-FF45-4F33-8ED6-6C84D88F4CF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{FA27097D-CAC6-4D81-A47C-C902DF9E8BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA27097D-CAC6-4D81-A47C-C902DF9E8BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA27097D-CAC6-4D81-A47C-C902DF9E8BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6493992E-048D-4005-81A1-2D39E8104A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6493992E-048D-4005-81A1-2D39E8104A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6493992E-048D-4005-81A1-2D39E8104A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6493992E-048D-4005-81A1-2D39E8104A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7370EE14-FF45-4F33-8ED6-6C84D88F4CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7370EE14-FF45-4F33-8ED6-6C84D88F4CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7370EE14-FF45-4F33-8ED6-6C84D88F4CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7370EE14-FF45-4F33-8ED6-6C84D88F4CF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
