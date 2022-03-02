@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata3WhoLikeIt", "..\Kata3W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata3WhoLikeit_Test", "..\Kata3WhoLikeit_Test\Kata3WhoLikeit_Test.csproj", "{7370EE14-FF45-4F33-8ED6-6C84D88F4CF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata5SecondLargestInAnArray", "..\Kata5SecondLargestInAnArray\Kata5SecondLargestInAnArray.csproj", "{CAFC925F-2997-4DD6-A7A9-9C16AECFEBED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "More_DataTypes", "..\More_DataTypes\More_DataTypes.csproj", "{78D50E68-73C2-446D-9E80-B7C40249407D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{7370EE14-FF45-4F33-8ED6-6C84D88F4CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7370EE14-FF45-4F33-8ED6-6C84D88F4CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7370EE14-FF45-4F33-8ED6-6C84D88F4CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAFC925F-2997-4DD6-A7A9-9C16AECFEBED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAFC925F-2997-4DD6-A7A9-9C16AECFEBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAFC925F-2997-4DD6-A7A9-9C16AECFEBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAFC925F-2997-4DD6-A7A9-9C16AECFEBED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D50E68-73C2-446D-9E80-B7C40249407D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D50E68-73C2-446D-9E80-B7C40249407D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D50E68-73C2-446D-9E80-B7C40249407D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D50E68-73C2-446D-9E80-B7C40249407D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
