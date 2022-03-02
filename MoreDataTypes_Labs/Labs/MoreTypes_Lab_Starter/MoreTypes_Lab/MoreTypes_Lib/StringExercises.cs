@@ -28,20 +28,14 @@ namespace MoreTypes_Lib
         // returns a string representing a test score, written as percentage to 1 decimal place
         public static string Scorer(int score, int outOf)
         {
-            return $"You got {score} out of {outOf}: {score / Convert.ToDouble(outOf):P1}";
+            return $"You got {score} out of {outOf}: {score / Convert.ToDouble(outOf):p1}";
         }
 
         // returns the double represented by the string, or -999 if conversion is not possible
         public static double ParseNum(string numString)
         {
-            double failureValue = -999;
-            if (double.TryParse(numString, out double returnVal))
-            {
-                return returnVal;
-            } else
-            {
-                return failureValue;
-            }
+            const int CONVERSION_NOT_POSSIBLE = -999;
+            return double.TryParse(numString, out double returnVal) ? returnVal : CONVERSION_NOT_POSSIBLE;
         }
 
         // Returns the a string containing the count of As, Bs, Cs and Ds in the parameter string
@@ -55,8 +49,7 @@ namespace MoreTypes_Lib
 
             for (int i = 0; i < input.Length; i++)
             {
-                char letter = input[i];
-                switch(letter)
+                switch(input[i])
                 {
                     case 'A':
                         countA++;
@@ -70,7 +63,6 @@ namespace MoreTypes_Lib
                     case 'D':
                         countD++;
                         break;
-
                 }
             }
             return $"A:{countA} B:{countB} C:{countC} D:{countD}";
