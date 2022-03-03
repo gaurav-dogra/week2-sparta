@@ -22,5 +22,14 @@ namespace Methods_Tests
             Assert.That(() => Methods.DaysAndWeeks(-1), Throws.TypeOf<ArgumentOutOfRangeException>()
         .With.Message.Contain("totalDays must not be negative"));
         }
+
+        [Test]
+        public void GivenANumberReturns_Square_Cube_Sqrt()
+        {
+            int input = 9;
+            var expected = (81, 729, 3.0d);
+            var actual = Methods.PowersRoot(input);
+            Assert.That(actual, Is.EqualTo(expected));
+        }
     }
 }
