@@ -16,21 +16,20 @@ namespace MoreTypes_Lib
         {
             string[,,] array3D = new string[length1, length2, length3];
             int index = 0;
+
+            if (contents.Count != length1 * length2 * length3)
+            {
+                throw new ArgumentException("Number of elements in list must match array size");
+            }
             for (int i = 0; i < length1; i++)
             {
                 for (int j = 0; j < length2; j++)
                 {
                     for (int k = 0; k < length3; k++)
                     {
-                        if (index < contents.Count)
-                        {
                             array3D[i, j, k] = contents[index++];
                         }
-                        else
-                        {
-                            throw new ArgumentException("Number of elements in list must match array size");
-                        }
-                    }
+                        
                 }
             }
             return array3D;
@@ -42,9 +41,8 @@ namespace MoreTypes_Lib
             string[][] arrayJagged2D = new string[2][];
             arrayJagged2D[0] = new string[countRow1];
             arrayJagged2D[1] = new string[countRow2];
-            int reqNoOfElements = countRow1 + countRow2;
 
-            if (contents.Count < reqNoOfElements)
+            if (contents.Count < countRow1 + countRow2)
             {
                 throw new ArgumentException("Number of elements in list must match array size");
             }
