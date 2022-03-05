@@ -7,37 +7,35 @@ public class Program
 
     public static int GetSecondLargestElement(int[] intArray)
     {
-        if (allValuesSame(intArray))
-        {
-            return intArray[0];
-        }
+        if (intArray.Length == 0)
+            throw new InvalidOperationException("Array is Empty");
+        else if (intArray.Length == 1)
+            throw new InvalidOperationException("Only one element in the array");
+        else if (allElementsSame(intArray))
+            throw new InvalidOperationException("All elements are same");
+        
 
         int largest = GetLargestElement(intArray);
         int secondLargest = int.MinValue;
 
-        foreach(int i in intArray)
+        foreach (int i in intArray)
         {
-            if (i == largest)
-            {
-                continue;
-            }
-            if (i > secondLargest)
-            {
+            if (i == largest) 
+                continue; 
+
+            if (i > secondLargest) 
                 secondLargest = i;
-            }
         }
         return secondLargest;
     }
 
-    private static bool allValuesSame(int[] intArray)
+    private static bool allElementsSame(int[] intArray)
     {
-        int oneElement = intArray[0];
-        foreach(int element in intArray)
+        int firstElement = intArray[0];
+        foreach (int element in intArray)
         {
-            if (oneElement != element)
-            {
+            if (firstElement != element)
                 return false;
-            }
         }
         return true;
     }
@@ -49,9 +47,7 @@ public class Program
         foreach (int element in intArray)
         {
             if (largest < element)
-            {
                 largest = element;
-            }
         }
         return largest;
     }

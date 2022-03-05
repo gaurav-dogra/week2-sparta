@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata6NumberClosestToZero", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata6NumberClosestToZero_Test", "..\Kata6NumberClosestToZero_Test\Kata6NumberClosestToZero_Test.csproj", "{B757F3FE-2138-4064-8644-1BC3794298A9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata5SecondLargestInAnArray", "..\Kata5SecondLargestInAnArray\Kata5SecondLargestInAnArray.csproj", "{01F27627-BE8A-4EBD-88DF-5B16341B4956}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata5SecondLargestInAnArray_Test", "..\Kata5SecondLargestInAnArray_Test\Kata5SecondLargestInAnArray_Test.csproj", "{18CACCE0-3589-44FF-9A0B-4F077BADA430}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{B757F3FE-2138-4064-8644-1BC3794298A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B757F3FE-2138-4064-8644-1BC3794298A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B757F3FE-2138-4064-8644-1BC3794298A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F27627-BE8A-4EBD-88DF-5B16341B4956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F27627-BE8A-4EBD-88DF-5B16341B4956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F27627-BE8A-4EBD-88DF-5B16341B4956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F27627-BE8A-4EBD-88DF-5B16341B4956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18CACCE0-3589-44FF-9A0B-4F077BADA430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CACCE0-3589-44FF-9A0B-4F077BADA430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CACCE0-3589-44FF-9A0B-4F077BADA430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CACCE0-3589-44FF-9A0B-4F077BADA430}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
